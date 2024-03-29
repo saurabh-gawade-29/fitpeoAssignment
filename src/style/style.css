@@ -4,9 +4,11 @@
   border-radius: 1rem !important;
   border: none;
 }
-
 /* Base End */
+
+/* Dashview */
 .wrap-name-search {
+  font-size: 1.4rem;
   display: flex;
   justify-content: space-between;
 }
@@ -48,13 +50,32 @@
   align-items: center;
   justify-content: center;
 }
+
 /* 
 .border1::after {
   border: 2rem solid #5630e8;
   border-radius: 50%;
 } */
 
-
-.table-text{
+.table-text {
   height: 50px;
+}
+
+/* Dashview End*/
+
+/* SideBar */
+
+.wrap-all-sidebar {
+  height: 100vh;
+  background-color: #040440;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.accor-btn {
+  color: #ffffff;
+  background-color: #040440;
 }

@@ -11,7 +11,7 @@ const Dashview = () => {
   return (
     <div className="section-right">
       <div className="wrapAll my-4">
-        <div className="container">
+        <div className="container-fluid">
           <div className="wrap-name-search">
             <div className="wrap-name fw-bold">Hello Saurabh 👋,</div>
             <div className="wrap-search">
@@ -138,7 +138,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6>Jan</h6>
+                              <h6 className="text-center">Jan</h6>
                             </div>
                           </div>
                         </div>
@@ -148,7 +148,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6>Feb</h6>
+                              <h6 className="text-center">Feb</h6>
                             </div>
                           </div>
                         </div>
@@ -158,7 +158,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6>Mar</h6>
+                              <h6 className="text-center">Mar</h6>
                             </div>
                           </div>
                         </div>
@@ -168,7 +168,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6>Apr</h6>
+                              <h6 className="text-center">Apr</h6>
                             </div>
                           </div>
                         </div>
@@ -178,7 +178,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6>May</h6>
+                              <h6 className="text-center">May</h6>
                             </div>
                           </div>
                         </div>
@@ -188,7 +188,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6>Jun</h6>
+                              <h6 className="text-center">Jun</h6>
                             </div>
                           </div>
                         </div>
@@ -198,7 +198,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6>Jul</h6>
+                              <h6 className="text-center">Jul</h6>
                             </div>
                           </div>
                         </div>
@@ -208,7 +208,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6>Aug</h6>
+                              <h6 className="text-center">Aug</h6>
                             </div>
                           </div>
                         </div>
@@ -218,7 +218,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6>Sept</h6>
+                              <h6 className="text-center">Sept</h6>
                             </div>
                           </div>
                         </div>
@@ -228,7 +228,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6>Oct</h6>
+                              <h6 className="text-center">Oct</h6>
                             </div>
                           </div>
                         </div>
@@ -238,7 +238,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6>Nov</h6>
+                              <h6 className="text-center">Nov</h6>
                             </div>
                           </div>
                         </div>
@@ -248,7 +248,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6>Dec</h6>
+                              <h6 className="text-center">Dec</h6>
                             </div>
                           </div>
                         </div>
