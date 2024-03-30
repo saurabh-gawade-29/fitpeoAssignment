@@ -6,10 +6,10 @@ const Dashboard = () => {
   return (
     <div>
       <div className="row me-0">
-        <div className="col-2">
+        <div className="d-none d-sm-none d-md-block col-12 col-sm-12 col-md-2 col-lg-2">
           <Sidebar />
         </div>
-        <div className="col-10">
+        <div className="col-12 col-sm-12 col-md-10 col-lg-10">
           <Dashview />
         </div>
       </div>
