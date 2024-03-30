@@ -7,7 +7,7 @@ const Sidebar = () => {
             <div className="wrap-all-sidebar">
                 <div className="sidebar-section-logo-text container-fluid py-4">
                     <div className="row">
-                        <div className="col-2 ps-0 pe-0">
+                        <div className="col-2 ps-0 pe-0 d-flex align-items-center">
                             <div className="wrap-sidebar-logo">
                                 <img src={Logo} alt="Logo" className="logo img-fluid" />
                             </div>
@@ -23,7 +23,7 @@ const Sidebar = () => {
                     <div className="accordion" id="accordionExample">
                         <div className="accordion-item border-0">
                             <h2 className="accordion-header" id="headingOne">
-                                <button className="accordion-button accor-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button className="accordion-button accor-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                     Product
                                 </button>
                             </h2>

@@ -14,6 +14,28 @@
 .thisMonth{
   font-size: 0.8rem;
 }
+
+
+/* !Overide */
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
+  margin-left: auto;
+  content: "";
+  background-image: url("../Asset/download.svg") !important;
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  transition: transform .2s ease-in-out;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #ffffff;
+  background-color: #5a32ea;
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+
 /* *Base End */
 
 /* !Dashview */
@@ -92,6 +114,7 @@
 }
 
 .accor-btn {
+  padding-left: 0.4rem !important;
   color: #ffffff;
   background-color: #040440;
 }
