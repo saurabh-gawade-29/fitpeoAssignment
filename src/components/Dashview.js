@@ -46,7 +46,7 @@ const Dashview = () => {
                         <h4 className="text-dark">$198k</h4>
                         <small>
                           <span className="price">37.8%</span>
-                          <span>this month</span>
+                          <span className="thisMonth">this month</span>
                         </small>
                       </div>
                     </div>
@@ -65,7 +65,7 @@ const Dashview = () => {
                         <h4 className="text-dark">$198k</h4>
                         <small>
                           <span className="price">37.8%</span>
-                          <span>this month</span>
+                          <span className="thisMonth">this month</span>
                         </small>
                       </div>
                     </div>
@@ -84,7 +84,7 @@ const Dashview = () => {
                         <h4 className="text-dark">$198k</h4>
                         <small>
                           <span className="price">37.8%</span>
-                          <span>this month</span>
+                          <span className="thisMonth">this month</span>
                         </small>
                       </div>
                     </div>
@@ -103,7 +103,7 @@ const Dashview = () => {
                         <h4 className="text-dark">$198k</h4>
                         <small>
                           <span className="price">37.8%</span>
-                          <span>this month</span>
+                          <span className="thisMonth">this month</span>
                         </small>
                       </div>
                     </div>
@@ -114,7 +114,7 @@ const Dashview = () => {
           </div>
           <div className="wrap-overview">
             <div className="row">
-              <div className="col-8">
+              <div className="col-12 col-sm-12 col-md-8 col-lg-8">
                 <div className="card">
                   <div className="card-body">
                     <div className="overviewTitleAndDropdown">
@@ -138,7 +138,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6 className="text-center">Jan</h6>
+                              <h6 className="text-center months-text">Jan</h6>
                             </div>
                           </div>
                         </div>
@@ -148,7 +148,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6 className="text-center">Feb</h6>
+                              <h6 className="text-center months-text">Feb</h6>
                             </div>
                           </div>
                         </div>
@@ -158,7 +158,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6 className="text-center">Mar</h6>
+                              <h6 className="text-center months-text">Mar</h6>
                             </div>
                           </div>
                         </div>
@@ -168,7 +168,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6 className="text-center">Apr</h6>
+                              <h6 className="text-center months-text">Apr</h6>
                             </div>
                           </div>
                         </div>
@@ -178,7 +178,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6 className="text-center">May</h6>
+                              <h6 className="text-center months-text">May</h6>
                             </div>
                           </div>
                         </div>
@@ -188,7 +188,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6 className="text-center">Jun</h6>
+                              <h6 className="text-center months-text">Jun</h6>
                             </div>
                           </div>
                         </div>
@@ -198,7 +198,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6 className="text-center">Jul</h6>
+                              <h6 className="text-center months-text">Jul</h6>
                             </div>
                           </div>
                         </div>
@@ -208,7 +208,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6 className="text-center">Aug</h6>
+                              <h6 className="text-center months-text">Aug</h6>
                             </div>
                           </div>
                         </div>
@@ -218,7 +218,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6 className="text-center">Sept</h6>
+                              <h6 className="text-center months-text">Sept</h6>
                             </div>
                           </div>
                         </div>
@@ -228,7 +228,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6 className="text-center">Oct</h6>
+                              <h6 className="text-center months-text">Oct</h6>
                             </div>
                           </div>
                         </div>
@@ -238,7 +238,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6 className="text-center">Nov</h6>
+                              <h6 className="text-center months-text">Nov</h6>
                             </div>
                           </div>
                         </div>
@@ -248,7 +248,7 @@ const Dashview = () => {
                               <div className="unfilledContainer"></div>
                             </div>
                             <div className="col-12">
-                              <h6 className="text-center">Dec</h6>
+                              <h6 className="text-center months-text">Dec</h6>
                             </div>
                           </div>
                         </div>
@@ -257,7 +257,7 @@ const Dashview = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-12 col-sm-12 col-md-4 col-lg-4">
                 <div className="wrapCustomers">
                   <div className="wrapTitle">
                     <div className="card">
@@ -313,7 +313,7 @@ const Dashview = () => {
                     </select>
                   </div>
                 </div>
-                <div className="actual-table">
+                <div className="actual-table table-responsive">
                   <table class="table table-hover">
                     <thead>
                       <tr>
